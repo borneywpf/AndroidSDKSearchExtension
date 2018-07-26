@@ -21,9 +21,9 @@ function save_options() {
 
 function restore_options() {
   chrome.storage.local.get({
-    baseUrl: 'https://android.googlesource.com'
+    baseUrl: 'https://source.android.google.cn'
   }, function(items) {
-    if (items.baseUrl === 'https://android.googlesource.com') {
+    if (items.baseUrl === 'https://source.android.google.cn') {
       document.getElementById("googlesource").checked = true;
     } else if (items.baseUrl === 'https://github.com') {
       document.getElementById("github").checked = true;

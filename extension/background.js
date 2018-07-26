@@ -242,7 +242,7 @@ function onScriptsLoaded() {
             .replace(/\|\%/g, '</match>');
 
         omniboxResults.push({
-          content: 'https://developer.android.com/' + result.link,
+          content: 'https://developer.android.google.cn/' + result.link,
           description: description
         });
       }
@@ -255,7 +255,7 @@ function onScriptsLoaded() {
     if (text.match(/^https?\:/)) {
       navigateToUrl(text);
     } else {
-      navigateToUrl('https://developer.android.com/s/results/?p=%2F&q=' +
+      navigateToUrl('https://developer.android.google.cn/s/results/?p=%2F&q=' +
           encodeURIComponent(text));
     }
   });

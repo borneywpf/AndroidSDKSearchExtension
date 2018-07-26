@@ -5,7 +5,7 @@
   "version": "0.3.15",
   "permissions": [
     "tabs",
-    "*://developer.android.com/*",
+    "*://developer.android.google.cn/*",
     "storage"
   ],
   "icons": {
@@ -19,8 +19,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://developer.android.com/reference/*",
-        "*://developer.android.com/guide/*"
+        "*://developer.android.google.cn/reference/*",
+        "*://developer.android.google.cn/guide/*"
       ],
       "js": [
         "ref-inject-code-search.js"
