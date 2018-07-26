@@ -21,9 +21,13 @@ function save_options() {
 
 function restore_options() {
   chrome.storage.local.get({
-    baseUrl: 'https://source.android.google.cn'
+    baseUrl: 'http://androidxref.com'
   }, function(items) {
-    if (items.baseUrl === 'https://source.android.google.cn') {
+    if (items.baseUrl === 'http://androidxref.com') {
+      document.getElementById("androidxref").checked = true;
+    } else if (items.baseUrl === 'https://www.androidos.net.cn') {
+      document.getElementById("androidos").checked = true;
+    } else if (items.baseUrl === 'https://android.googlesource.com') {
       document.getElementById("googlesource").checked = true;
     } else if (items.baseUrl === 'https://github.com') {
       document.getElementById("github").checked = true;
