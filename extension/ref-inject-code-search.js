@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-var _PACKAGE_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?\.android\.com\/reference\/(.+)\/package-(summary|descr)/;
-var _CLASS_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?\.android\.com\/reference\/(.+)/;
-var _RESOURCE_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?\.android\.com\/reference\/android\/(?:.+\/)?(R(?:\..+)?)/;
+var _PACKAGE_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?\.android\.google\.cn\/reference\/(.+)\/package-(summary|descr)/;
+var _CLASS_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?\.android\.google\.cn\/reference\/(.+)/;
+var _RESOURCE_DOC_URL_REGEX = /http(?:s)?:\/\/d(?:eveloper)?\.android\.google\.cn\/reference\/android\/(?:.+\/)?(R(?:\..+)?)/;
 
 var _GOOGLESOURCE_SITE = "https://source.android.google.cn";
 var _GITHUB_SITE = "https://github.com";
