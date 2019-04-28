@@ -36,13 +36,13 @@ var _GITHUB_URL_TEMPLATE = _GITHUB_SITE + '/android/$PROJECT/blob/master/$TREE/$
 var _GITHUB_RESOURCES_PATH = _GITHUB_SITE + '/android/platform_frameworks_$PROJECT/tree/master/$TREE/';
 var _GITHUB_SAMPLES_PATH = _GITHUB_SITE + '/android/platform_development/tree/master/samples';
 
-var _ANDROIDXREF_URL_TEMPLATE = _ANDROIDXREF_SITE + '/8.0.0_r4/xref/$PROJECT/$TREE/$NAME_SLASH';
-var _ANDROIDXREF_RESOURCES_PATH = _ANDROIDXREF_SITE + '/8.0.0_r4/xref/frameworks/$PROJECT/$TREE/';
-var _ANDROIDXREF_SAMPLES_PATH = _ANDROIDXREF_SITE + '/8.0.0_r4/xref/development/samples';
+var _ANDROIDXREF_URL_TEMPLATE = _ANDROIDXREF_SITE + '/9.0.0_r3/xref/$PROJECT/$TREE/$NAME_SLASH';
+var _ANDROIDXREF_RESOURCES_PATH = _ANDROIDXREF_SITE + '/9.0.0_r3/xref/frameworks/$PROJECT/$TREE/';
+var _ANDROIDXREF_SAMPLES_PATH = _ANDROIDXREF_SITE + '/9.0.0_r3/xref/development/samples';
 
-var _ANDROIDOS_URL_TEMPLATE = _ANDROIDOS_SITE + '/android/8.0.0_r4/xref/$PROJECT/$TREE/$NAME_SLASH';
-var _ANDROIDOS_RESOURCES_PATH = _ANDROIDOS_SITE + '/android/8.0.0_r4/xref/frameworks/$PROJECT/$TREE/';
-var _ANDROIDOS_SAMPLES_PATH = _ANDROIDOS_SITE + '/android/8.0.0_r4/xref/development/samples';
+var _ANDROIDOS_URL_TEMPLATE = _ANDROIDOS_SITE + '/android/9.0.0_r3/xref/$PROJECT/$TREE/$NAME_SLASH';
+var _ANDROIDOS_RESOURCES_PATH = _ANDROIDOS_SITE + '/android/9.0.0_r3/xref/frameworks/$PROJECT/$TREE/';
+var _ANDROIDOS_SAMPLES_PATH = _ANDROIDOS_SITE + '/android/9.0.0_r3/xref/development/samples';
 
 var _RESOURCE_MAP = {
   'R'               : '',

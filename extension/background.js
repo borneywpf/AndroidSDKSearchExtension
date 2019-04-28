@@ -255,7 +255,7 @@ function onScriptsLoaded() {
     if (text.match(/^https?\:/)) {
       navigateToUrl(text);
     } else {
-      navigateToUrl('https://developer.android.google.cn/s/results/?p=%2F&q=' +
+      navigateToUrl('https://developer.android.google.cn/s/results/?q=' +
           encodeURIComponent(text));
     }
   });
